@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>wissagamma</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+
+    <!-- FOTO -->
+
+<div class="boximg">
+  <div class="judulimg">FOTO</div>
+  <div style="text-align: center;">
+  <img src="gambar/me.jpg" alt="fotoku"  class="img-circle">
+</div>
+
+
+</div>
+
+    <!-- AKHIR FOTO -->
+
+    <br><br>
+
+    <!-- VIDIO -->
+    <div class="boxmp4">
+      <div class="judul">vidio</div>
+      <div style="text-align: center">
+        <button onclick="tekanPause()">Play/Pause</button>
+        <button onclick="menjadiBig()">Big</button>
+        <button onclick="menjadiSmall()">Small</button>
+        <button onclick="menjadiNormal()">Normal</button>
+        <br />
+        <video id="videoku"width="350"height="400">
+          <source src="vidio/vidioku.mp4" alt="mp4ku" />
+        </video>
+        
+      </div>
+      <script>
+        var VideoAku = document.getElementById('videoku');
+  
+        function tekanPause() {
+          if (VideoAku.paused) VideoAku.play();
+          else VideoAku.pause();
+        }
+        function menjadiBig() {
+          VideoAku.width = 500;
+          VideoAku.height = 470;
+        }
+  
+        function menjadiSmall() {
+          VideoAku.width = 150;
+        }
+  
+        function menjadiNormal() {
+          VideoAku.width = 250;
+        }
+      </script>
+    </div>
+  </div>
+    
+    <!-- AKHIR VIDIO -->
+    <br><br>
+    <!-- SOUND -->
+<div class="boxmp3">
+
+  <div class="judul-lagu">Hard To Say I'm sorry</div>
+  <div class="penyanyi">( Chicago )</div>
+  
+
+<audio controls src="audio/audio1.mp3"alt="mp3ku" >
+</div>
+    <!-- AKHIR SOUND -->
+  </body>
+</html>

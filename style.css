@@ -1,0 +1,72 @@
+body {
+  font-size: 50px;
+  background-image: url(gambar/back.jpg);
+  align-items: center;
+  background-size: 70%;
+  padding-top: 10%;
+  backdrop-filter: blur(5px);
+}
+.boxmp4 {
+  backdrop-filter: blur(10px);
+  background-color: rgb(255, 255, 255, 0.1);
+  position: relative;
+  margin: 20px auto;
+  border-radius: 20px;
+  width: 500px;
+  height: 600px;
+}
+.boximg {
+  backdrop-filter: blur(10px);
+  background-color: rgb(255, 255, 255, 0.1);
+  position: relative;
+  margin: auto;
+  width: 450px;
+  height: 450px;
+  border-radius: 50px;
+}
+.boxmp3 {
+  backdrop-filter: blur(10px);
+  background-color: rgb(255, 255, 255, 0.1);
+  position: relative;
+  margin: auto;
+  width: 500px;
+  height: 200px;
+  border-radius: 50px;
+  padding-left: 3%;
+  padding-top: 3%;
+  padding-right: 3%;
+  padding-bottom: 3%;
+  align-items: center;
+  z-index: 100;
+  flex-direction: column;
+  display: flex;
+}
+
+.judul-lagu,
+.penyanyi {
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: azure;
+  font-size: 80%;
+  margin-bottom: auto;
+}
+
+.judul {
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: azure;
+}
+.img-circle {
+  max-width: 250px;
+  max-height: 250px;
+  border-radius: 50%;
+}
+.judulimg {
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: azure;
+  padding: 10%;
+}
+.img {
+  align-items: center;
+}
